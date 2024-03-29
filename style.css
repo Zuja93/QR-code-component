@@ -22,10 +22,12 @@ body {
   height: 288px;
   width: 288px;
   border-radius: 10px;
-  background-image: url(./images/image-qr-code.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  margin-bottom: 24px;
+  margin-bottom: 16px;
+  overflow: hidden;
+}
+.container .qr-code img {
+  height: 100%;
+  width: 100%;
 }
 .container .text {
   height: 129px;
