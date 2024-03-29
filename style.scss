@@ -1,0 +1,51 @@
+@import '_colors';
+
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Outfit", sans-serif;;
+    background-color: $lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    height: 465px;
+    width: 288px;
+    padding: 16px;
+    text-align: center;
+    background-color: $white;
+    border-radius: 20px;
+    box-shadow: 0 16px 20px -16px $grayishblue;
+    .qr-code {
+        height: 288px;
+        width: 288px;
+        border-radius: 10px;
+        background-image: url(./images/image-qr-code.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-bottom: 24px;
+    }
+    .text {
+        height: 129px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h1 {
+            font-size: 22px;
+            font-weight: 700;
+            color: $darkblue;
+            margin: 16px auto;
+        }
+        p {
+            font-size: 15px;
+            font-weight: 400;
+            color: $grayishblue;
+            width: 256px;
+            margin: 0px;
+        }
+    }
+}
